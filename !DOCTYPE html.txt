@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Nav and Aside Example</title>
+
+<style>
+body{
+font-family: Arial;
+margin:0;
+}
+
+header{
+background-color:#333;
+color:white;
+text-align:center;
+padding:10px;
+}
+
+nav{
+background-color:#555;
+}
+
+nav ul{
+list-style:none;
+margin:0;
+padding:0;
+display:flex;
+}
+
+nav ul li{
+padding:10px 20px;
+}
+
+nav ul li a{
+color:white;
+text-decoration:none;
+}
+
+main{
+width:70%;
+float:left;
+padding:20px;
+}
+
+aside{
+width:25%;
+float:right;
+background:#f4f4f4;
+padding:20px;
+}
+
+footer{
+clear:both;
+background:#333;
+color:white;
+text-align:center;
+padding:10px;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+<h1>My Website</h1>
+</header>
+
+<nav>
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="#">About</a></li>
+<li><a href="#">Services</a></li>
+<li><a href="#">Contact</a></li>
+</ul>
+</nav>
+
+<main>
+<h2>Main Content</h2>
+<p>This is the main content of the webpage.</p>
+</main>
+
+<aside>
+<h3>Sidebar</h3>
+<p>This is additional information in aside section.</p>
+</aside>
+
+<footer>
+<p>Copyright © 2026</p>
+</footer>
+
+</body>
+</html>
